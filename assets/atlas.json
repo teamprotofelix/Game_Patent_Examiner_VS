@@ -1,0 +1,816 @@
+{
+  "characters": {
+    "marie": {
+      "file": "assets/characters/marie.webp",
+      "size": 384,
+      "columns": 8,
+      "frames": 50,
+      "animations": {
+        "idle": {
+          "start": 0,
+          "count": 6,
+          "fps": 8
+        },
+        "run": {
+          "start": 6,
+          "count": 8,
+          "fps": 14
+        },
+        "attack": {
+          "start": 14,
+          "count": 6,
+          "fps": 11
+        },
+        "dash": {
+          "start": 20,
+          "count": 6,
+          "fps": 11
+        },
+        "hit": {
+          "start": 26,
+          "count": 4,
+          "fps": 8
+        },
+        "skill": {
+          "start": 30,
+          "count": 8,
+          "fps": 8
+        },
+        "victory": {
+          "start": 38,
+          "count": 6,
+          "fps": 8
+        },
+        "death": {
+          "start": 44,
+          "count": 6,
+          "fps": 8
+        }
+      }
+    },
+    "searcher": {
+      "file": "assets/characters/searcher.webp",
+      "size": 384,
+      "columns": 8,
+      "frames": 50,
+      "animations": {
+        "idle": {
+          "start": 0,
+          "count": 6,
+          "fps": 8
+        },
+        "run": {
+          "start": 6,
+          "count": 8,
+          "fps": 14
+        },
+        "attack": {
+          "start": 14,
+          "count": 6,
+          "fps": 11
+        },
+        "dash": {
+          "start": 20,
+          "count": 6,
+          "fps": 11
+        },
+        "hit": {
+          "start": 26,
+          "count": 4,
+          "fps": 8
+        },
+        "skill": {
+          "start": 30,
+          "count": 8,
+          "fps": 8
+        },
+        "victory": {
+          "start": 38,
+          "count": 6,
+          "fps": 8
+        },
+        "death": {
+          "start": 44,
+          "count": 6,
+          "fps": 8
+        }
+      }
+    },
+    "alchemist": {
+      "file": "assets/characters/alchemist.webp",
+      "size": 384,
+      "columns": 8,
+      "frames": 50,
+      "animations": {
+        "idle": {
+          "start": 0,
+          "count": 6,
+          "fps": 8
+        },
+        "run": {
+          "start": 6,
+          "count": 8,
+          "fps": 14
+        },
+        "attack": {
+          "start": 14,
+          "count": 6,
+          "fps": 11
+        },
+        "dash": {
+          "start": 20,
+          "count": 6,
+          "fps": 11
+        },
+        "hit": {
+          "start": 26,
+          "count": 4,
+          "fps": 8
+        },
+        "skill": {
+          "start": 30,
+          "count": 8,
+          "fps": 8
+        },
+        "victory": {
+          "start": 38,
+          "count": 6,
+          "fps": 8
+        },
+        "death": {
+          "start": 44,
+          "count": 6,
+          "fps": 8
+        }
+      }
+    }
+  },
+  "enemies": {
+    "slime": {
+      "file": "assets/enemies/slime.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "ghost": {
+      "file": "assets/enemies/ghost.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "bat": {
+      "file": "assets/enemies/bat.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "phantom": {
+      "file": "assets/enemies/phantom.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "golem": {
+      "file": "assets/enemies/golem.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "mage": {
+      "file": "assets/enemies/mage.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "skeleton": {
+      "file": "assets/enemies/skeleton.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "glitch": {
+      "file": "assets/enemies/glitch.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "document": {
+      "file": "assets/enemies/document.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "gear": {
+      "file": "assets/enemies/gear.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "elite_oracle": {
+      "file": "assets/enemies/elite_oracle.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "elite_guard": {
+      "file": "assets/enemies/elite_guard.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "elite_librarian": {
+      "file": "assets/enemies/elite_librarian.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "elite_wraith": {
+      "file": "assets/enemies/elite_wraith.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "audit_spider": {
+      "file": "assets/enemies/audit_spider.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "timeout_wisp": {
+      "file": "assets/enemies/timeout_wisp.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "citation_mimic": {
+      "file": "assets/enemies/citation_mimic.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "syntax_serpent": {
+      "file": "assets/enemies/syntax_serpent.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "elite_archivist": {
+      "file": "assets/enemies/elite_archivist.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    },
+    "elite_reactor": {
+      "file": "assets/enemies/elite_reactor.webp",
+      "size": 256,
+      "columns": 6,
+      "frames": 21,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 6,
+          "fps": 10
+        },
+        "attack": {
+          "start": 6,
+          "count": 5,
+          "fps": 11
+        },
+        "hit": {
+          "start": 11,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 15,
+          "count": 6,
+          "fps": 9
+        }
+      }
+    }
+  },
+  "bosses": {
+    "shadow": {
+      "file": "assets/bosses/shadow.webp",
+      "size": 544,
+      "columns": 4,
+      "frames": 28,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 8,
+          "fps": 8
+        },
+        "attack": {
+          "start": 8,
+          "count": 8,
+          "fps": 11
+        },
+        "hit": {
+          "start": 16,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 20,
+          "count": 8,
+          "fps": 8
+        }
+      }
+    },
+    "giant": {
+      "file": "assets/bosses/giant.webp",
+      "size": 544,
+      "columns": 4,
+      "frames": 28,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 8,
+          "fps": 8
+        },
+        "attack": {
+          "start": 8,
+          "count": 8,
+          "fps": 11
+        },
+        "hit": {
+          "start": 16,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 20,
+          "count": 8,
+          "fps": 8
+        }
+      }
+    },
+    "chimera": {
+      "file": "assets/bosses/chimera.webp",
+      "size": 544,
+      "columns": 4,
+      "frames": 28,
+      "animations": {
+        "move": {
+          "start": 0,
+          "count": 8,
+          "fps": 8
+        },
+        "attack": {
+          "start": 8,
+          "count": 8,
+          "fps": 11
+        },
+        "hit": {
+          "start": 16,
+          "count": 4,
+          "fps": 8
+        },
+        "death": {
+          "start": 20,
+          "count": 8,
+          "fps": 8
+        }
+      }
+    }
+  },
+  "icons": {
+    "blade": "assets/icons/blade.webp",
+    "laser": "assets/icons/laser.webp",
+    "chain": "assets/icons/chain.webp",
+    "shield": "assets/icons/shield.webp",
+    "drone": "assets/icons/drone.webp",
+    "markush": "assets/icons/markush.webp",
+    "dash": "assets/icons/dash.webp",
+    "ultimate": "assets/icons/ultimate.webp",
+    "heart": "assets/icons/heart.webp",
+    "xp": "assets/icons/xp.webp",
+    "crit": "assets/icons/crit.webp",
+    "speed": "assets/icons/speed.webp",
+    "power": "assets/icons/power.webp",
+    "range": "assets/icons/range.webp",
+    "projectile": "assets/icons/projectile.webp",
+    "heal": "assets/icons/heal.webp",
+    "coins": "assets/icons/coins.webp",
+    "boss": "assets/icons/boss.webp"
+  }
+}
